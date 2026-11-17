@@ -11,7 +11,7 @@ Package installation can be done directly by calling
 
 ## Demonstrated Usage
 
-# Usage
+### Usage
 
 `count_all_missing_by_group(data, group_col, .groups = "drop")`
 
@@ -24,7 +24,7 @@ With arguments:
 - `.groups`: Optional, controls whether the output data frame is
   grouped. Set to `"drop"` by default
 
-# Examples
+### Examples
 
 This example computes the number of missing values in the `airquality`
 dataset grouped by the `cyl` column.
